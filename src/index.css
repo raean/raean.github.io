@@ -42,13 +42,14 @@
 }
 
 .menu-btn.sticky {
-  color: black;
+  color: black
 }
 
 .navbar .max-width { 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 200px;
 }
 
 .navbar .logo a {
