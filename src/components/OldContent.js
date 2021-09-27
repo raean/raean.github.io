@@ -1,6 +1,7 @@
 import React from 'react';
 import '../index.css';
 import Typed from 'react-typed';
+import {pdf} from '../docs/rae-one-pager.pdf';
 
 /**
  * Renders the Nominations components which provides a list of the nominated movies found, their title, their year released, their poster as well as a button to remove the movie from their nominations list.
@@ -49,8 +50,8 @@ export class OldContent extends React.Component {
                     <li><a href="#about">About</a></li>
                     <li><a href="/design-projects"> Design </a></li>
                     <li><a href="/code-projects"> Code </a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a onclick="window.open('./docs/Resume-Rae-Abunahla.pdf','_blank')" class="resume">Resume</a></li>
+                    {/* <li><a href="#contact">Contact</a></li> */}
+                    <li><a href={pdf} target="_blank" class="resume" without rel='noopener noreferrer'>Resume</a></li>
                     </ul>
                     <div className="menu-btn">
                     <i class="fas fa-bars"></i>
@@ -96,7 +97,7 @@ export class OldContent extends React.Component {
             <p> After graduating with a Computer Science degree from York University in Toronto, Canada, Rae has spent just over a year working at Accenture within the Technology Consulting space. While his academic background was focused on software engineering, e-commere, big data and research, Rae has delivered work to several clients through data analytics, software development and design thinking workshops.
             Rae is eager to return back to his roots with a more technical role in the software engineering space.
             </p>
-            <a onclick="window.open('./docs/Resume-Rae-Abunahla.pdf','_blank')">Download Resume</a>
+            <a href={pdf} target="_blank" class="resume" without rel='noopener noreferrer'>Download Resume</a>
             </div>
         </div>
             </section>
