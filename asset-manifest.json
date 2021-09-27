@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.49843c18.chunk.css",
-    "main.js": "/static/js/main.c3db7ef1.chunk.js",
-    "main.js.map": "/static/js/main.c3db7ef1.chunk.js.map",
+    "main.js": "/static/js/main.3aa37689.chunk.js",
+    "main.js.map": "/static/js/main.3aa37689.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ec15d89.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ec15d89.js.map",
     "static/js/2.147a7e3b.chunk.js": "/static/js/2.147a7e3b.chunk.js",
@@ -10,12 +10,13 @@
     "index.html": "/index.html",
     "static/css/main.49843c18.chunk.css.map": "/static/css/main.49843c18.chunk.css.map",
     "static/js/2.147a7e3b.chunk.js.LICENSE.txt": "/static/js/2.147a7e3b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/myself.ffefb9fb.jpg"
+    "static/media/index.css": "/static/media/myself.ffefb9fb.jpg",
+    "static/media/rae-one-pager.68085c22.pdf": "/static/media/rae-one-pager.68085c22.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.5ec15d89.js",
     "static/js/2.147a7e3b.chunk.js",
     "static/css/main.49843c18.chunk.css",
-    "static/js/main.c3db7ef1.chunk.js"
+    "static/js/main.3aa37689.chunk.js"
   ]
 }
