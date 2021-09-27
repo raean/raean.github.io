@@ -12,7 +12,7 @@ export class OldContent extends React.Component {
         super(props);
     }
 
-    componentDidMount() {
+    componentDidMount() { 
         window.addEventListener('scroll', this.handleScroll);
     }
     
