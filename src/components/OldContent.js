@@ -88,14 +88,16 @@ export class OldContent extends React.Component {
                         "natural language processing.", 
                         "interaction design.", 
                         "analog photography.", 
-                        "data analytics.",
+                        "big data.",
                         "data-driven decisions.",
                         "rapid prototyping."]}
                         typeSpeed={60}
                         backSpeed={60}
                         loop/> </div>
-            <p> After graduating with a Computer Science degree from York University in Toronto, Canada, Rae has spent just over a year working at Accenture within the Technology Consulting space. While his academic background was focused on software engineering, e-commere, big data and research, Rae has delivered work to several clients through data analytics, software development and design thinking workshops.
-            Rae is eager to return back to his roots with a more technical role in the software engineering space.
+            <p> 
+            After graduating with a Computer Science degree from the Lassonde School of Engineering at York University, in Toronto, Canada, Rae has spent just over two years working at Accenture as a developer and a designer. In addition to engineering & development, Rae has also participated in hackathons as an experience designer, won national design competitions and delivered designer work in professional settings.
+            <br/><br/>
+            Rae aspires to continue melding design and engineering in an attempt to create quality products and services.
             </p>
             <a href={pdf} target="_blank" class="resume" without rel='noopener noreferrer'>Download Resume</a>
             </div>
